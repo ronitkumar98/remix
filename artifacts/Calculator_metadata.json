@@ -1,0 +1,102 @@
+{
+	"compiler": {
+		"version": "0.8.30+commit.73712a01"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "product",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "a",
+						"type": "uint256"
+					},
+					{
+						"internalType": "uint256",
+						"name": "b",
+						"type": "uint256"
+					}
+				],
+				"name": "sum",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "pure",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"Calculator.sol": "Calculator"
+		},
+		"evmVersion": "prague",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"Calculator.sol": {
+			"keccak256": "0x0316cfef265756c5028d3e6c1d956b2118aebc0c54be78d30da32beb1765e4e7",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://1e6c7007abb4baa6ca99bfb0dc85f19023d82b318dc643941e347168939ff213",
+				"dweb:/ipfs/QmWRhXVT44wiBA5ze89tzQp5EL73YqLkaDJWCz3njDCJzv"
+			]
+		},
+		"MathUtils.sol": {
+			"keccak256": "0x5bf56891de8d945c041417f6f2db79218b0cdc7ffefa511db105e47e8131be0b",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://aaeae8480e040711312039b8ef9ad3a0edb4c3660cc0c3af32c86b16a055c39a",
+				"dweb:/ipfs/QmXodgLfoHRxBp59GVCh598aghe6cfPV4EiQqjnFQC6ckH"
+			]
+		}
+	},
+	"version": 1
+}
